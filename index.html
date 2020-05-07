@@ -1,0 +1,30 @@
+<html>
+<head>
+    <TITLE>
+            Setpa Bus 
+    </TITLE>
+    <script src="client.js"></script>
+    <style>
+        div{
+        float:center;
+        }
+        body {background-color: powderblue;}   
+    </style>
+</head>
+<body >
+    <h1>Septa Bus</h1>
+    <div id="menu">
+        <br>
+        <button onclick="getBus('6')">6</button>
+        <button onclick="getBus('14')">14</button>
+        <button onclick="getBus('17')">17</button>
+        <button onclick="getBus('20')">20</button>
+        <button onclick="getBus('23')">23</button>
+        <br>
+        <button onclick="fetchData()">Fetch Data</button>
+        <p id="message"></p>
+        <br>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
